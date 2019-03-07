@@ -1,13 +1,13 @@
-Legacy Code Repository in RDBMS
+# Legacy Code Repository in RDBMS
 
 
-# Overview
+## Overview
 
 This is a tool to upload the Legacy mainframe off-line code into Relational Database Management System for faster analysis and documentation purpose.
 The script is written in Python and the database used here is MySQL. 
 So the pre-requisites are the python and MySQL installed.
 
-# Implementation
+## Implementation
 
 The below steps need to be followed for loading the components in a structured manner.
 Provide the folder location against the "path=" variable given in the script.
@@ -21,7 +21,7 @@ For example, user can write a query to get the copybook names used in the progra
 The Content Type Column can be used to further categorize the kind of statements, like Move, Conditional, Loop, Comments etc.
 Right now it is not populated using the script and SQL statements are used to give value to the Content Type column, after loading the Database Table.
 
-# Conclusion
+## Conclusion
 
 Millions of lines of code can be loaded into the table in a few minutes and analysis can be completed in a couple of hours.
 It may take several days to complete the same work, if done manually.
